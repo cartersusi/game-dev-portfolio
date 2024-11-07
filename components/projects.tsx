@@ -23,9 +23,9 @@ export const SmallProjects = () => {
                         <span key={tagIndex} className="bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 px-3 py-1 rounded-full text-sm">{tag}</span>
                       ))}
                     </div>
-                    <a href="#" className="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:underline">
+                    <Link href={`projects/${project.slug}`} className="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:underline">
                       Learn More <ChevronRight className="h-4 w-4 ml-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ export const LargeProjects = () => {
                       <span key={tagIndex} className="bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 px-3 py-1 rounded-full text-sm">{tag}</span>
                     ))}
                   </div>
-                  <Link href="#" className="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:underline">
+                  <Link href={`projects/${project.slug}`} className="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:underline">
                     Learn More <ChevronRight className="h-4 w-4 ml-1" />
                   </Link>
                 </div>
