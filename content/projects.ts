@@ -79,10 +79,10 @@ export const projects = [
       ]
     },
     {
-      title: "VR Escape Room",
-      slug: "vr-escape-room",
-      description: "An immersive virtual reality escape room experience set in a mysterious ancient temple. Solve intricate puzzles, decipher cryptic clues, and uncover the secrets of a lost civilization. Designed for room-scale VR with intuitive hand interactions and stunning environmental details.",
-      image: "/placeholder.svg?height=600&width=800",
+      title: "Robo-Venture",
+      slug: "robo-venture",
+      description: "Robo-Venture is a platformer action game where you follow Robo, a sentient robot who's stranded on an alien planet. Missing the 4 fuel cells to relaunch his rocket, take control of Robo to escape the wasteland! And on your journey, discover the history of your enemies and the world.",
+      image: "/robo.png",
       tags: ["Unreal Engine", "C++", "VR Development", "3D Modeling", "Level Design"],
       timeline: [
         { date: "January 2023", title: "Concept Development", description: "Brainstormed game ideas and settled on the space strategy concept. Created initial design documents and gameplay mockups." },
@@ -95,10 +95,28 @@ export const projects = [
       ],
       supporting: [
         {
-          title: "Overall Cotributions",
-          description: "I am one of two gameplay programmers and focus primarily on player and level mechanics. Adding a new player ability, movement mode, or puzzles and dynamic platforms is my domain. I rely heavily on rapid prototyping and iteration, working closely with designers to ensure it doesn’t just work, but is fun and matches designer intentions.",
+          title: "Gameplay Programming.",
+          description: "Abilities descend from the same class with basic features covering UI event broadcasting, input and animation abstract functions, and cool downs. Each ability sub-class overwrite abstract functions to have individualized actions while retaining the same system logic. The special abilities included were: Dash, Hookshot, Charge Punch. The generic abilities were: Jump, 3-Punch Combo. I also created Enemy AI that is responsive to the player entering certain areas and acts as a swarm. Swarms are activate when the player enters the Green Radius, the combat trigger. The blue is the area for passive roaming and is assigned per enemy.",
           video: null,
-          image: null,
+          image: "/robo_support.PNG",
+        },
+        {
+          title: "UI design.",
+          description: "The Abilities UI was designed to be a Slot System, where the slots would populate as new abilities were used, and was made using a Stack container and 4 locations on the HUD for it to show up on. The Player’s Health Bar decrements in discrete chunks, both for readability and aesthetic purposes as it mimics the looks of a battery. I also implemented menus for: Pausing, Options, Credits, and Start.",
+          video: null,
+          image: "/robo_ui.PNG",
+        },
+        {
+          title: "Organization in Unity.",
+          description: "As Lead Programmer, I was in-engine the most and was responsible for organizing folders and scripts to make it designer friendly. I made use of Unity Attributes to organize the Inspector into sections with headers, and adding tooltips on different variables.",
+          video: null,
+          image: "/robo_unity.jfif",
+        },
+        {
+          title: "Task Management.",
+          description: "Created and maintained task list for the team, adding in details and references. I also actively followed up with each person to check progress and deliver feedback.",
+          video: null,
+          image: "/robo_task.jfif",
         },
       ]
     }
