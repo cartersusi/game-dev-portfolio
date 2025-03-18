@@ -1,5 +1,4 @@
 import { SmallProjects } from '@/components/projects';
-import { SkillsComponent } from '@/components/skills'
 import Link from 'next/link';
 
 export default async function Home() {

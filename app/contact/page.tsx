@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { SkillsComponent } from '@/components/skills'
 
 export default async function Skills() {
   return (
