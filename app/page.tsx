@@ -1,6 +1,5 @@
 import { SmallProjects } from '@/components/projects';
 import Link from 'next/link';
-import { GithubRepos } from '@/components/repos';
 
 export default async function Home() {
   return (
