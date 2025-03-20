@@ -39,24 +39,13 @@ export const projects = [
       image: "/shrimp.jpg",
       tags: [
         "Unity",
-        "Game Development",
         "Mobile Development",
         "C#",
         "UI/UX Design",
         "Touch Controls",
         "Gyroscope Implementation",
-        "Observer Pattern",
-        "Event-Driven Programming",
         "3D Modeling",
-        "Prototype Development",
-        "Game Mechanics",
-        "Resource Management",
-        "Input Handling",
-        "SFX Implementation", 
-        "Code Architecture",
-        "Cross-Platform Development",
-        "Game Design",
-        "System Integration"
+        "SFX"
        ],
       timeline: [
         { date: "January 2023", title: "Concept Development", description: "Brainstormed game ideas and settled on the space strategy concept. Created initial design documents and gameplay mockups." },
@@ -110,13 +99,13 @@ export const projects = [
           title: "Organization in Unity.",
           description: "As Lead Programmer, I was in-engine the most and was responsible for organizing folders and scripts to make it designer friendly. I made use of Unity Attributes to organize the Inspector into sections with headers, and adding tooltips on different variables.",
           video: null,
-          image: "/robo_unity.jfif",
+          image: "/robo_unity.jpg",
         },
         {
           title: "Task Management.",
           description: "Created and maintained task list for the team, adding in details and references. I also actively followed up with each person to check progress and deliver feedback.",
           video: null,
-          image: "/robo_task.jfif",
+          image: "/robo_task.jpg",
         },
       ]
     }

@@ -4,7 +4,7 @@ export default async function Skills() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       {/* Bio Section */}
-      <section className="py-12 md:py-20 bg-indigo-700 text-white">
+      <section className="py-12 md:py-20 bg-gray-700 text-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/3 mb-8 md:mb-0">

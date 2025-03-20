@@ -80,7 +80,7 @@ export default async function Page({
             ))}
 
                         
-            <h3 className="text-xl font-semibold mb-3 pt-8">Skills Used</h3>
+            <h3 className="text-xl font-semibold mb-3 pt-8">Tags</h3>
             <div className="flex flex-wrap gap-2 mb-6">
               {project.tags.map((skill, index) => (
                 <span key={index} className="bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 px-3 py-1 rounded-full text-sm">{skill}</span>

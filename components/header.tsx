@@ -8,7 +8,7 @@ export const Header = () => {
     return (
         <header className="bg-white dark:bg-gray-800 shadow-sm">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">Braeden Susi</Link>
+            <Link href="/" className="text-2xl font-bold text-gray-600 dark:text-indigo-400">Braeden Susi</Link>
             <div className="md:hidden">
                 <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
